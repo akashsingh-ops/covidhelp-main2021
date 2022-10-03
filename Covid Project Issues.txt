@@ -1,0 +1,30 @@
+Done 1. ISSUE Alert Not showing in when invalid ID or Password is set.
+Done 2. ISSUE User should not be inserted until vendor is registered.
+Done 3. CHECK Admin should not be able to acess AddItem.php ,UpdateItem.php,updateProfile.php.
+-------------------------------------------------------------------------------------------------
+All Registration form should validate using js/jquery. 
+
+1. Search.php 
+	Change UI.
+	sort data on the basis of availability.
+
+2. hospitalList.php	
+	(Onnly ADMIN can see)
+
+Done 3. adminpanel.php 
+	(Toggle for vendor and user request)
+
+Done 4. Navbar CSS enable in each page
+
+Done 5. index.php
+	fetch data.
+	important link change position.
+
+Done 6. userRegistration.php 
+	only registered hospital should be in list.
+	user Registration Has been sent.
+
+7.Vendorregistration 
+	Modal Not Showing.
+
+	

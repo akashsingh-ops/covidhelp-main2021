@@ -1,0 +1,121 @@
+/*NAVBAR CSS STYLE END*/
+ .navbar-expand-lg{
+
+        margin-top: 0px;padding-top: 15px;
+        /* box-shadow: 0px 4px 3px 1px rgba(163,250,193,.5); */
+       overflow: hidden;
+    }
+
+    .nav-link{
+      margin-left: 15px;
+      border-bottom: 0px;
+      color: white;
+
+
+    }
+    .nav-link:hover{
+      color: red;
+    }
+    #loginform{
+    margin-right: 0%; margin-left: auto;
+  }
+ .navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  position: relative;
+}
+.navbar .navbar-nav .nav-link:hover {
+  
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  margin: auto;
+  background-color: #6610f2;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  transition: .3s;
+  height: 2px;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+  max-width: 150px;
+
+}
+    @media only screen and (max-width: 991px) {
+  #login {
+    margin-bottom: 10px;
+    margin-left: 15px;
+   
+  }
+  .navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  color: transparent;
+  width: 0%;
+  content: '.';
+ display: none;
+  height: 2px;
+}
+
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+  width: 80%;
+  max-width: 80px;
+  margin-left: 0px;
+  transition: .2s;
+
+}
+  #login{
+    margin-left: 15px;
+  }
+  #signup{
+    margin-left: 15px;
+  }
+}
+.nav-link{
+  cursor: pointer;
+
+}
+#hos1:hover{
+  transition: .2s;
+  transform: translateY(-5px);
+  color:#6610f2;
+  transition: .2s;
+}
+#hos2:hover{
+  transition: .2s;
+  transform: translateY(-5px);
+  color:#6610f2;
+  transition: .2s;
+}
+#hos3:hover{
+  transition: .2s;
+  transform: translateY(-5px);
+  color:#6610f2;
+  transition: .2s;
+}
+#hos4:hover{
+  transition: .2s;
+  transform: translateY(-5px);
+  color:#6610f2;
+  transition: .2s;
+}      
+
+
+
+/*NAVBAR CSS STYLE END*/
+#wrapper {
+  display: flex;
+  margin-top: 0px;
+
+  justify-content: space-between;
+}
